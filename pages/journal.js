@@ -35,6 +35,5 @@ export default function Journal({ articles }) {
 
 export async function getStaticProps() {
   const articles = await getAllFilesFrontMatter("posts");
-
   return { props: { articles } };
 }
