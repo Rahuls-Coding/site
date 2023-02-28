@@ -3,6 +3,7 @@ import Head from "next/head";
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer'
+import Logo from '../components/Logo'
 
 function projects() {
   return (
@@ -12,7 +13,7 @@ function projects() {
       </Head>
       <div className="grid grid-cols-8 gap-4">
         <div>
-          <img src='/r.png' className=' w-10 h-10 mt-32' />
+          <Logo />
           <Navbar places={["About", "Journal"]} links={["/", "journal"]} />
         </div>
         <div className="col-span-7 mt-10">
@@ -68,20 +69,10 @@ function projects() {
               >
                 <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2">
                   Cram
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="ml-1 inline w-3 h-3"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+</svg>
+
                 </div>
                 <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
                   Review all the content for AP Calculus

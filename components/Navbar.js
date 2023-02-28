@@ -1,9 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
+
 
 
 
 function Navbar({ places, links }) {
+
+  const router = useRouter()
+  const data = router.query;
+  console.log(router.asPath);
 
 
   return (
