@@ -1,32 +1,58 @@
 import React from "react";
 import Link from "next/link";
-import Footer from '../components/Footer'
+import Logo from '../components/Logo';
+import Navbar from '../components/Navbar';
+import Footer from "../components/Footer";
 
 function Layout({ children, frontMatter }) {
   return (
-    <div className="flex flex-col justify-center items-start max-w-2xl sm:mx-auto pb-16 mx-6">
-      <div className="mt-20 text-2xl">{frontMatter.title}</div>
-      <div className=" grid grid-cols-2 content-center py-3 w-full text-sm dark:text-slate-200">
-        <div className="justify-self-start ">{frontMatter.date}</div>
-        <div className="justify-self-end ">
-          <Link
-            className=" flex w-full items-center gap-2 text-sm "
-            href="/journal"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
-</svg>
-
-            <div className="underline  underline-offset-2 hover:underline-offset-2 hover:decoration-wavy">
-              Go Back
-            </div>
-          </Link>
+    <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
+     <div className="grid grid-cols-8 gap-4">
+        <div>
+          <div className="logobody">
+            <Logo />
+          </div>
+          <Navbar className='sticky'
+            places={["Projects", "Journal"]}
+            links={["/projects", "/journal"]}
+          />
         </div>
-      </div>
-      <div className="special text-white mt-10 leading-relaxed tracking-wide mb-3">
-        {children}
-      </div>
-      <Footer />
+     <div className='col-span-7 mt-10  h-96'>
+      <div className="mt-20 text-2xl">{frontMatter.title}</div>
+        <div className=" grid grid-cols-2 content-center py-3 w-full text-sm dark:text-slate-200">
+          <div className="justify-self-start bg-gray-100 rounded py-1 px-2 mt-2">{frontMatter.date}</div>
+          <div className="justify-self-end mt-2">
+            <Link
+              className=" flex w-full items-center gap-2 text-sm "
+              href="/journal"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
+                />
+              </svg>
+
+              <div className="underline  underline-offset-2 hover:underline-offset-2 hover:decoration-wavy">
+                Go Back
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div className="special text-white mt-10 leading-relaxed tracking-wide mb-3">
+          {children}
+        </div>
+        <Footer />
+     </div>
+     </div>
     </div>
   );
 }

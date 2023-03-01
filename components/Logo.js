@@ -1,25 +1,47 @@
-import React from 'react'
+import * as React from "react";
+import { motion } from "framer-motion";
+
 
 function Logo() {
-  return (
-      <div>
-           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-          width="62.000000pt" height="81.000000pt" viewBox="0 0 62.000000 81.000000"
-          preserveAspectRatio="xMidYMid meet" className="text-black dark:text-white mt-32 w-10 h-10">
+    const icon = {
+      hidden: {
+        opacity: 0,
+        pathLength: 0,
+        fill: "rgba(0, 0, 0, 0)"
+      },
+      visible: {
+        opacity: 1,
+        pathLength: 1,
+        fill: "rgba(0, 0, 0, 1)"
+      }
+    };
+    return (
+  <div className="container">
+    <motion.svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100"
+      width="62.000000pt"
+      height="81.000000pt"
+      className="item"
+    >
+      <motion.path
+        d="M280 800 c-144 -17 -200 -47 -244 -129 -21 -39 -28 -67 -29 -109 -1
+        -121 75 -188 217 -194 37 -1 71 -7 76 -13 6 -7 -22 -66 -77 -163 -70 -125 -83
+        -155 -73 -167 7 -8 16 -15 21 -15 7 0 126 205 174 299 35 69 -8 111 -115 111
+        -115 0 -170 47 -170 145 0 72 32 124 95 155 43 21 67 25 177 28 155 5 174 1
+        127 -31 -81 -54 -89 -169 -25 -361 36 -106 134 -326 146 -326 3 0 14 6 24 13
+        16 12 13 21 -38 127 -99 207 -146 390 -117 463 6 15 31 39 56 55 97 58 60 104
+        -95 115 -36 3 -94 1 -130 -3z"
+        variants={icon}
+        initial="hidden"
+        animate="visible"
+        transition={{
+          default: { duration: 3, ease: "easeInOut" },
+          fill: { duration: 3, ease: [1, 0, 0.8, 1] }
+        }}
+      />
+    </motion.svg>
+  </div>
+)}
 
-          <g transform="translate(0.000000,81.000000) scale(0.100000,-0.100000)"
-          fill="currentColor" stroke="none">
-          <path d="M178 800 c-62 -8 -108 -32 -108 -55 0 -18 27 -45 68 -67 45 -24 59
-          -79 44 -171 -17 -96 -61 -226 -122 -354 -50 -105 -52 -122 -14 -123 14 0 98
-          179 140 297 l32 93 113 -205 c63 -113 118 -205 124 -205 5 0 16 4 24 9 11 7
-          -5 43 -78 175 -50 91 -91 167 -91 168 0 2 37 4 81 5 168 4 252 94 221 240 -21
-          102 -81 158 -192 181 -70 15 -179 20 -242 12z m232 -61 c81 -19 108 -37 136
-          -95 21 -43 25 -64 22 -99 -11 -98 -62 -128 -209 -128 -134 1 -141 4 -132 56 5
-          23 8 72 8 108 -1 74 -17 108 -66 138 -16 10 -26 21 -22 24 10 11 213 8 263 -4z"/>
-          </g>
-          </svg>
-    </div>
-  )
-}
-
-export default Logo
+export default Logo;

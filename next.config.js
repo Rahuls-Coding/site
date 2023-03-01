@@ -28,26 +28,27 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/github',
-        destination: 'https://github.com/rahuls-coding',
+        source: "/github",
+        destination: "https://github.com/rahuls-coding",
         permanent: true,
       },
       {
-        source: '/linkedin',
-        destination: 'https://linkedin.com/in/rahulscoding',
+        source: "/linkedin",
+        destination: "https://linkedin.com/in/rahulscoding",
         permanent: true,
       },
       {
-        source: '/twitter',
-        destination: 'https://twitter.com/rahuls_coding',
+        source: "/twitter",
+        destination: "https://twitter.com/rahuls_coding",
         permanent: true,
       },
       {
-        source: '/email',
-        destination: 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com',
+        source: "/email",
+        destination:
+          "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com",
         permanent: true,
       },
-    ]
+    ];
   },
 };
 

@@ -2,8 +2,8 @@ import Head from "next/head";
 
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from '../components/Footer'
-import Logo from '../components/Logo'
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
 
 function projects() {
   return (
@@ -13,8 +13,10 @@ function projects() {
       </Head>
       <div className="grid grid-cols-8 gap-4">
         <div>
-          <Logo />
-          <Navbar places={["About", "Journal"]} links={["/", "journal"]} />
+        <div className="logobody">
+            <Logo />
+          </div>
+          <Navbar/>
         </div>
         <div className="col-span-7 mt-10">
           <div className="text-2xl mt-20 mb-10">Projects</div>
@@ -26,11 +28,12 @@ function projects() {
               highlighted.
             </p>
             <p className="pb-4">
-              Most projects that I&#39;m currently building are private (for now)
-              but almost everyhting I build is open-source as you can check it out{" "}
+              Most projects that I&#39;m currently building are private (for
+              now) but almost everyhting I build is open-source as you can check
+              it out{" "}
               <a
                 className="underline hover:decoration-wavy underline-offset-2"
-                href="https://github.com/rahuls-coding"
+                href="https://github.com/Rahuls-Coding?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -47,36 +50,64 @@ function projects() {
             <div className="grid grid-cols-3 gap-24 mt-3 w-full">
               <div className="special">
                 <div className="dark:text-gray-200 underline underline-offset-2">
-                  Foresight
+                  GeneAI
                 </div>
                 <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
-                  Predicts prices of BTC & ETH with ML and PyTorch
-                </div>
-              </div>
-              <div className="special">
-                <div className="dark:text-gray-200 underline underline-offset-2">
-                  SendTX
-                </div>
-                <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
-                  An east way to send crypto between wallets
+                  A ML model that&#39;s able to generate smaller models with little data. 
                 </div>
               </div>
               <a
                 className="special"
-                href="https://github.com/rahuls-coding/cram"
+                href="https://github.com/rahuls-coding/shapemind"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2">
-                  Cram
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="ml-1 inline w-3 h-3">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-</svg>
-
-
+                  ShapeMind
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="ml-1 inline w-3 h-3"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
                 </div>
                 <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
-                  Review all the content for AP Calculus
+                  A CNN model that identifies shapes in real life objects in images.
+                </div>
+              </a>
+              <a
+                className="special"
+                href="https://github.com/rahuls-coding/volog"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2">
+                  Volog
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="ml-1 inline w-3 h-3"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
+                </div>
+                <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
+                  A tracker to track your volunteering hours.
                 </div>
               </a>
             </div>

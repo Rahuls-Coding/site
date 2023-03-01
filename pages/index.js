@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Logo from '../components/Logo'
+import Logo from "../components/Logo";
 
 export default function Home() {
   return (
@@ -13,7 +13,9 @@ export default function Home() {
       </Head>
       <div className="grid grid-cols-8 gap-4">
         <div>
-         <Logo />
+          <div className="logobody">
+            <Logo />
+          </div>
           <Navbar
             places={["Projects", "Journal"]}
             links={["/projects", "/journal"]}
@@ -26,15 +28,15 @@ export default function Home() {
             and Blockchain Enthusiast.
           </p>
           <p className="pb-4">
-            I&#39;ve been programming as early as middle school. I first fell into
-            love programming when I started learning about data science with
-            Python. Ever since then I&#39;ve learned a lot more about the space of
-            technology. I learned more language since then like Rust, Javascript,
-            or Solidity.{" "}
+            I&#39;ve been programming as early as middle school. I first fell
+            into love programming when I started learning about data science
+            with Python. Ever since then I&#39;ve learned a lot more about the
+            space of technology. I learned more language since then like Rust,
+            Javascript, or Solidity.{" "}
           </p>
           <p className="pb-4">
-            Currently, I&#39;m going back and learning more data science and ML/AI
-            with Python but still continue to get lost in the space of Web
+            Currently, I&#39;m going back and learning more data science and
+            ML/AI with Python but still continue to get lost in the space of Web
             Development.
           </p>
           <p className="pb-4">
@@ -49,7 +51,7 @@ export default function Home() {
             </Link>{" "}
             here.{" "}
           </p>
-      <Footer text="Design inspired by Nextra" />
+          <Footer text="Design inspired by Nextra" />
         </div>
       </div>
     </div>

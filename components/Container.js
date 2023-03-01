@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-
 function Container({ title, description, date, slug }) {
   return (
     <Link

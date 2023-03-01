@@ -32,3 +32,37 @@ a {
 .special {
   font-size: 15px;
 }
+
+.logobody {
+  width: 10vh;
+  height: 10vh;
+  overflow: hidden;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 500px;
+  margin-top: 7rem;
+
+}
+
+.item{
+  width: 8%;
+  overflow: visible;
+  stroke: black;
+  stroke-width: 2;
+  /* stroke-linejoin: round;
+  stroke-linecap: round; */
+  transform: rotate(180deg);
+}
+
+.sticky{
+  flex-grow: 1;
+  flex-basis: 300px;
+  position: sticky;
+  top: 2rem;
+  /* center the text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
