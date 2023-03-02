@@ -47,7 +47,7 @@ function projects() {
               <div>Started</div>
               <div>Building</div>
             </div> */}
-            <div className="grid grid-rows-3 lg:gap-24 gap-8 mt-3 w-full lg:grid-cols-3">
+            <div className="grid lg:gap-24 gap-8 mt-3 w-full lg:grid-cols-3">
               <div className="special w-full">
                 <div className="dark:text-gray-200 underline underline-offset-2 w-full">
                   GeneAI
