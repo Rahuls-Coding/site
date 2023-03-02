@@ -11,14 +11,14 @@ function projects() {
       <Head>
         <title>Projects | Rahul Rajkumar</title>
       </Head>
-      <div className="grid grid-cols-8 gap-4">
+      <div className="grid grid-cols-8 xs:grid-rows-8 gap-4">
         <div>
 
             <Logo />
 
           <Navbar/>
         </div>
-        <div className="col-span-7 mt-10">
+        <div className="xs:row-span-7 col-span-7 mt-10">
           <div className="text-2xl mt-20 mb-10">Projects</div>
           <div className="special dark:text-slate-200 mt-10 leading-relaxed tracking-wide">
             <p className="pb-4">
@@ -47,7 +47,7 @@ function projects() {
               <div>Started</div>
               <div>Building</div>
             </div>
-            <div className="grid grid-cols-3 gap-24 mt-3 w-full">
+            <div className="grid grid-rows-3 gap-24 mt-3 w-full sm:grid-cols-3">
               <div className="special">
                 <div className="dark:text-gray-200 underline underline-offset-2">
                   GeneAI

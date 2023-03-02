@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Rahul Rajkumar</title>
       </Head>
-      <div className="grid grid-cols-8 gap-4">
+      <div className="grid lg:grid-cols-8 grid-rows-8 gap-4">
         <div>
           <div className="">
             <Logo />
@@ -21,8 +21,8 @@ export default function Home() {
             links={["/projects", "/journal"]}
           />
         </div>
-        <div className="special dark:text-slate-200 mt-10 leading-relaxed tracking-wide col-span-7">
-          <div className="text-2xl mt-20 mb-10">Rahul Rajkumar</div>
+        <div className="special dark:text-slate-200 sm:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
+          <div className="text-2xl sm:mt-20 mb-10">Rahul Rajkumar</div>
           <p className="pb-4">
             Hey, I&#39;m a Full Stack Developer, a High School Student, a Ml/AI
             and Blockchain Enthusiast.

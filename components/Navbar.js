@@ -31,7 +31,7 @@ function Navbar() {
   });
 
   return (
-    <div className="justify-items-end text-sm mt-8 dark:text-slate-100">
+    <div className="flex justify-start gap-4 lg:grid lg:justify-items-start text-sm mt-8 dark:text-slate-100">
       <button className={style}>
             <Link href='/'>
                 About
