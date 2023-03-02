@@ -32,19 +32,19 @@ function Navbar() {
 
   return (
     <div className="flex justify-start gap-4 lg:grid lg:justify-items-start text-sm mt-8 dark:text-slate-100">
-      <button className={style}>
+      <div className={style}>
             <Link href='/'>
                 About
-            </Link>
-        </button>
-      <div className={style2}>
-            <Link href='/journal'>
-                Journal
             </Link>
         </div>
       <div className={style3}>
             <Link href='/projects'>
                 Projects
+            </Link>
+        </div>
+      <div className={style2}>
+            <Link href='/journal'>
+                Journal
             </Link>
         </div>
     </div>
