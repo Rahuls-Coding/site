@@ -11,7 +11,7 @@ function Layout({ children, frontMatter }) {
       <Head>
         <title> {frontMatter.title} | Rahul Rajkumar </title>
       </Head>
-     <div className="grid grid-cols-8 gap-4">
+     <div className="grid lg:grid-cols-8 grid-rows-8 gap-4">
         <div>
           <Logo />
           <Navbar className=''
@@ -19,11 +19,11 @@ function Layout({ children, frontMatter }) {
             links={["/projects", "/journal"]}
           />
         </div>
-     <div className='col-span-7 my-10  h-96'>
-      <div className="mt-20 text-2xl">{frontMatter.title}</div>
+     <div className='special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7 mr-4'>
+      <div className="lg:mt-20 text-2xl">{frontMatter.title}</div>
         <div className=" grid grid-cols-2 content-center py-3 w-full text-sm dark:text-slate-200">
           <div className="justify-self-start bg-gray-100  dark:bg-[#2c2c2c] rounded py-1 px-2 mt-2">{frontMatter.date}</div>
-          <div className="justify-self-end mt-2">
+          <div className="justify-self-end mt-2 ">
             <Link
               className=" flex w-full items-center gap-2 text-sm "
               href="/journal"
@@ -43,7 +43,7 @@ function Layout({ children, frontMatter }) {
                 />
               </svg>
 
-              <div className="underline  underline-offset-2 hover:underline-offset-2 hover:decoration-wavy">
+              <div className="underline underline-offset-2 hover:underline-offset-2 hover:decoration-wavy">
                 Go Back
               </div>
             </Link>

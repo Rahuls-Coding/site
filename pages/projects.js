@@ -43,16 +43,16 @@ function projects() {
             </p>
           </div>
           <div className="my-3 mb-10">
-            <div className="text-sm dark:text-gray-400 grid grid-cols-3 gap-24">
+            {/* <div className="text-sm dark:text-gray-400 grid grid-cols-3 gap-24">
               <div>Started</div>
               <div>Building</div>
-            </div>
-            <div className="grid grid-rows-3 gap-24 mt-3 w-full sm:grid-cols-3">
-              <div className="special">
-                <div className="dark:text-gray-200 underline underline-offset-2">
+            </div> */}
+            <div className="grid grid-rows-3 lg:gap-24 gap-8 mt-3 w-full lg:grid-cols-3">
+              <div className="special w-full">
+                <div className="dark:text-gray-200 underline underline-offset-2 w-full">
                   GeneAI
                 </div>
-                <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
+                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6 ">
                   A ML model that&#39;s able to generate smaller models with little data. 
                 </div>
               </div>
@@ -79,7 +79,7 @@ function projects() {
                     />
                   </svg>
                 </div>
-                <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
+                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
                   A CNN model that identifies shapes in real life objects in images.
                 </div>
               </a>
@@ -106,7 +106,7 @@ function projects() {
                     />
                   </svg>
                 </div>
-                <div className="dark:text-gray-300 pt-2 w-40 text-sm leading-6">
+                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
                   A tracker to track your volunteering hours.
                 </div>
               </a>
