@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from 'next/head';
 import Logo from '../components/Logo';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
@@ -7,20 +8,21 @@ import Footer from "../components/Footer";
 function Layout({ children, frontMatter }) {
   return (
     <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
+      <Head>
+        <title> {frontMatter.title} | Rahul Rajkumar </title>
+      </Head>
      <div className="grid grid-cols-8 gap-4">
         <div>
-          <div className="logobody">
-            <Logo />
-          </div>
-          <Navbar className='sticky'
+          <Logo />
+          <Navbar className=''
             places={["Projects", "Journal"]}
             links={["/projects", "/journal"]}
           />
         </div>
-     <div className='col-span-7 mt-10  h-96'>
+     <div className='col-span-7 my-10  h-96'>
       <div className="mt-20 text-2xl">{frontMatter.title}</div>
         <div className=" grid grid-cols-2 content-center py-3 w-full text-sm dark:text-slate-200">
-          <div className="justify-self-start bg-gray-100 rounded py-1 px-2 mt-2">{frontMatter.date}</div>
+          <div className="justify-self-start bg-gray-100  dark:bg-[#2c2c2c] rounded py-1 px-2 mt-2">{frontMatter.date}</div>
           <div className="justify-self-end mt-2">
             <Link
               className=" flex w-full items-center gap-2 text-sm "

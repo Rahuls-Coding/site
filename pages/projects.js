@@ -13,9 +13,9 @@ function projects() {
       </Head>
       <div className="grid grid-cols-8 gap-4">
         <div>
-        <div className="logobody">
+
             <Logo />
-          </div>
+
           <Navbar/>
         </div>
         <div className="col-span-7 mt-10">

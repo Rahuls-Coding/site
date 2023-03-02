@@ -10,13 +10,12 @@ function Navbar() {
   const [style, setStyle] = useState(active);
   const [style2, setStyle2] = useState(active);
   const [style3, setStyle3] = useState(active);
-  console.log(router.asPath);
 
   const checkIfOnPage = () => {
     if (router.asPath === "/") {
       console.log("is true")
       setStyle(nonActive);
-    } else if (router.asPath === "/journal") {
+    } else if (router.asPath.includes("/journal")) {
       console.log("is true jounal")
       setStyle2(nonActive);
     } else if (router.asPath === "/projects") {
@@ -32,7 +31,7 @@ function Navbar() {
   });
 
   return (
-    <div className="justify-items-end text-sm dark:text-slate-100">
+    <div className="justify-items-end text-sm mt-8 dark:text-slate-100">
       <button className={style}>
             <Link href='/'>
                 About

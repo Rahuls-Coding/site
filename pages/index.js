@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <div className="grid grid-cols-8 gap-4">
         <div>
-          <div className="logobody">
+          <div className="">
             <Logo />
           </div>
           <Navbar

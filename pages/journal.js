@@ -14,9 +14,9 @@ export default function Journal({ articles }) {
     <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
       <div className="grid grid-cols-8 gap-4">
         <div>
-          <div className="logobody">
+
             <Logo />
-          </div>
+
           <Navbar
             places={["Projects", "Journal"]}
             links={["/projects", "/journal"]}
