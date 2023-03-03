@@ -10,6 +10,7 @@ function Navbar() {
   const [style, setStyle] = useState(active);
   const [style2, setStyle2] = useState(active);
   const [style3, setStyle3] = useState(active);
+  const [style4, setStyle4] = useState(active);
 
   const checkIfOnPage = () => {
     if (router.asPath === "/") {
@@ -21,6 +22,8 @@ function Navbar() {
     } else if (router.asPath === "/projects") {
       console.log("is true projects");
       setStyle3(nonActive);
+    } else if (router.asPath === '/social') {
+      setStyle4(nonActive)
     }
     console.log("checked");
     console.log(style);
@@ -40,6 +43,9 @@ function Navbar() {
       </div>
       <div className={style2}>
         <Link href="/journal">Journal</Link>
+      </div>
+      <div className={style4}>
+        <Link href="/social">Social</Link>
       </div>
     </div>
   );

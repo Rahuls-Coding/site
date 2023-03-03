@@ -37,14 +37,7 @@ export default function Home() {
           <p className="pb-4">
             Other than programming, I love travelling, biking, and badminton. If
             it weren&#39;t for these hobbies, I would be doing programming 24/7.
-            To know a little bit more about me, you can find my{" "}
-            <Link
-              href="/social"
-              className="underline hover:decoration-wavy underline-offset-2"
-            >
-              socials
-            </Link>{" "}
-            here.{" "}
+            To know a little bit more about me, you can find take a look at socials. 
           </p>
           <Footer text="Design inspired by Nextra" />
         </div>
