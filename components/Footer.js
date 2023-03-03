@@ -5,7 +5,13 @@ function Footer({ text }) {
   return (
     <div className="grid w-full">
       <div className="justify-self-center">
-        <Image src='/line.svg' alt="line" width={90} height={90} className="mt-6" />
+        <Image
+          src="/line.svg"
+          alt="line"
+          width={90}
+          height={90}
+          className="mt-6"
+        />
       </div>
 
       <div className="grid grid-cols-2 mt-10 mb-8 text-xs w-full">

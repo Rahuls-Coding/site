@@ -43,10 +43,9 @@ a {
   align-items: center;
   perspective: 500px;
   margin-top: 7rem;
-
 }
 
-.item{
+.item {
   width: 8%;
   overflow: visible;
   stroke: black;
@@ -56,7 +55,7 @@ a {
   transform: rotate(180deg);
 }
 
-.sticky{
+.sticky {
   flex-grow: 1;
   flex-basis: 300px;
   position: sticky;
