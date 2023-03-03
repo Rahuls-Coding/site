@@ -13,13 +13,8 @@ export default function Home() {
       </Head>
       <div className="grid lg:grid-cols-8 grid-rows-8 gap-4">
         <div>
-          <div className="">
-            <Logo />
-          </div>
-          <Navbar
-            places={["Projects", "Journal"]}
-            links={["/projects", "/journal"]}
-          />
+          <Logo />
+          <Navbar />
         </div>
         <div className="special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
           <div className="text-2xl lg:mt-20 mb-10">Rahul Rajkumar</div>

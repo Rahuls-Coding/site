@@ -1,5 +1,5 @@
 import React from "react";
-import Head from 'next/head'
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Container from "../components/Container";
 import Logo from "../components/Logo";
@@ -18,20 +18,15 @@ export default function Journal({ articles }) {
       </Head>
       <div className="grid lg:grid-cols-8 grid-rows-8 gap-4">
         <div>
-
-            <Logo />
-
-          <Navbar
-            places={["Projects", "Journal"]}
-            links={["/projects", "/journal"]}
-          />
+          <Logo />
+          <Navbar />
         </div>
-      <div className="special dark:text-slate-200 mt-6 lg:mt-10 leading-relaxed tracking-wide mb-14 row-span-7 lg:col-span-7">
-        <h1 className="text-2xl lg:mt-20 mb-10">Journal</h1>
+        <div className="special dark:text-slate-200 mt-6 lg:mt-10 leading-relaxed tracking-wide mb-14 row-span-7 lg:col-span-7">
+          <h1 className="text-2xl lg:mt-20 mb-10">Journal</h1>
           <p className="pb-4">
             This is my journal where I write about my experiences, thoughts, and
-            stories. I love to keep note of what&#39;s currently happening in the
-            world and how I could possbily apply that.
+            stories. I love to keep note of what&#39;s currently happening in
+            the world and how I could possbily apply that.
           </p>
           <div className="my-3">
             <div className="text-sm dark:text-gray-400 ">
