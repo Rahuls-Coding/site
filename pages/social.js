@@ -109,33 +109,7 @@ function Social() {
             </div>
             </a>
           </motion.div>
-        <Link
-          href="https://twitter.com/rahuls_coding"
-          className="transition ease-in-out duration-700 border-b-2 dark:border-[#1C1C1C] dark:hover:border-[#2e2e2e] border-white hover:border-[#e8e8e8] grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
-        >
-          <div className="justify-self-start ">Twitter</div>
-          <div className="justify-self-end text-gray-500 dark:text-gray-400 ">
-            Tweet random thoughts or amplify others
-          </div>
-        </Link>
-        <Link
-          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com"
-          className="transition ease-in-out duration-700 border-b-2 dark:border-[#1C1C1C] dark:hover:border-[#2e2e2e] border-white hover:border-[#e8e8e8] grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
-        >
-          <div className="justify-self-start ">Email</div>
-          <div className="justify-self-end text-gray-500 dark:text-gray-400">
-            Mostly for business/hiring inquiries or for a &#34;Hi!&#34;
-          </div>
-        </Link>
-        <Link
-          href="https://linkedin.com/in/rahulscoding"
-          className="transition ease-in-out duration-700 border-b-2 dark:border-[#1C1C1C] dark:hover:border-[#2e2e2e] border-white hover:border-[#e8e8e8] grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
-        >
-          <div className="justify-self-start ">Linkedin</div>
-          <div className="justify-self-end text-gray-500 dark:text-gray-400 ">
-            A place to connect with me professionally
-          </div>
-        </Link>
+     
       </div>
     </div>
   );
