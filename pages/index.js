@@ -26,8 +26,8 @@ export default function Home() {
             I&#39;ve been programming as early as middle school. I first fell
             into love programming when I started learning about data science
             with Python. Ever since then I&#39;ve learned a lot more about the
-            space of technology. I learned more language since then like Rust,
-            Javascript, or Solidity.{" "}
+            about programming and technology. I learned more languages since then like Rust and
+            Javascript{" "}
           </p>
           <p className="pb-4">
             Currently, I&#39;m going back and learning more data science and
@@ -36,8 +36,8 @@ export default function Home() {
           </p>
           <p className="pb-4">
             Other than programming, I love travelling, biking, and badminton. If
-            it weren&#39;t for these hobbies, I would be doing programming 24/7.
-            To know a little bit more about me, you can find take a look at socials. 
+            it weren&#39;t for these hobbies, I would be programming 24/7, cause it is very addictive.
+            To know a little bit more about me, you can take a look at my socials. 
           </p>
           <Footer text="Design inspired by Nextra" />
         </div>

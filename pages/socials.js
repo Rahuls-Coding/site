@@ -17,8 +17,8 @@ function Social() {
           <Navbar />
         </div>
       <div className="special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
-      <div className="text-2xl mt-20">Socials</div>
-      <div className=" dark:text-slate-200 mt-10 leading-relaxed tracking-wide text-sm">
+      <div className="text-2xl lg:mt-20">Socials</div>
+      <div className=" dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide text-sm">
         <div className="pb-6 w-full">
           My socials are below, but you can also quickly access all my socials
           by doing, rahulrajkumar.me/&#123;i&#x7D; , where i represents the name of the social.

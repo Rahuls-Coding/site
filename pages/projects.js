@@ -20,22 +20,19 @@ function projects() {
           <div className="text-2xl lg:mt-20 mb-10">Projects</div>
           <div className="special dark:text-slate-200 mt-10 leading-relaxed tracking-wide">
             <p className="pb-4">
-              These are the projects that I personally loved working on and was
-              interested in. This doesn&#39;t mean I didn&#39;t like the other
-              projects I worked on, but these are the ones that I&#39;ve
-              highlighted.
+              These are  a sample of the projects that I loved working on and learned somthing new during their development.
             </p>
             <p className="pb-4">
               Most projects that I&#39;m currently building are private (for
               now) but almost everyhting I build is open-source as you can check
-              it out{" "}
+              it out on my {" "}
               <a
                 className="underline hover:decoration-wavy underline-offset-2"
                 href="https://github.com/Rahuls-Coding?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
               >
-                here
+                Github
               </a>
               .
             </p>

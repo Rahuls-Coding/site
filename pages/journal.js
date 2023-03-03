@@ -26,7 +26,7 @@ export default function Journal({ articles }) {
           <p className="pb-4">
             This is my journal where I write about my experiences, thoughts, and
             stories. I love to keep note of what&#39;s currently happening in
-            the world and how I could possbily apply that.
+            the world and how I could possbily apply it to myself.
           </p>
           <div className="my-3">
             <div className="text-sm dark:text-gray-400 ">
