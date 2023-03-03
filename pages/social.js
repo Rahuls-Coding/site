@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import Head from 'next/head';
+import Head from "next/head";
 import Code from "../components/Code";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 function Social() {
   return (
@@ -42,10 +42,10 @@ function Social() {
           represents the name of the social.
         </div>
         <motion.div
-           whileHover={{ scale: 1.03 }}
-           whileTap={{ scale: 0.9 }}
-           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-           >
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
           <a
             className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://github.com/rahuls-coding"
@@ -56,13 +56,13 @@ function Social() {
             <div className="justify-self-end text-gray-500 dark:text-gray-400">
               All of my open-sourced and personal projects.
             </div>
-            </a>
-          </motion.div>
+          </a>
+        </motion.div>
         <motion.div
-           whileHover={{ scale: 1.03 }}
-           whileTap={{ scale: 0.9 }}
-           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-           >
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
           <a
             className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://twitter.com/rahuls_coding"
@@ -73,13 +73,13 @@ function Social() {
             <div className="justify-self-end text-gray-500 dark:text-gray-400">
               Tweet random thoughts or amplify others
             </div>
-            </a>
-          </motion.div>
+          </a>
+        </motion.div>
         <motion.div
-           whileHover={{ scale: 1.03 }}
-           whileTap={{ scale: 0.9 }}
-           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-           >
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
           <a
             className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com"
@@ -88,15 +88,15 @@ function Social() {
           >
             <div className="justify-self-start ">Email</div>
             <div className="justify-self-end text-gray-500 dark:text-gray-400">
-            Mostly for business/hiring inquiries or for a &#34;Hi!&#34;
+              Mostly for business/hiring inquiries or for a &#34;Hi!&#34;
             </div>
-            </a>
-          </motion.div>
+          </a>
+        </motion.div>
         <motion.div
-           whileHover={{ scale: 1.03 }}
-           whileTap={{ scale: 0.9 }}
-           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-           >
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.9 }}
+          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        >
           <a
             className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://linkedin.com/in/rahulscoding"
@@ -105,11 +105,10 @@ function Social() {
           >
             <div className="justify-self-start ">Linkedin</div>
             <div className="justify-self-end text-gray-500 dark:text-gray-400">
-            A place to connect with me professionally
+              A place to connect with me professionally
             </div>
-            </a>
-          </motion.div>
-     
+          </a>
+        </motion.div>
       </div>
     </div>
   );

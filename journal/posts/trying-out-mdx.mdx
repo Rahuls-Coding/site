@@ -9,11 +9,9 @@ So even though I have built a website using MDX & Next.js, [Cram](https://github
 When I rendered the file using next-mdx-remote, I had to put inside a div with a specific classname:
 
 ```js
-
 <div classname="prose">
   <MDXRemote {...source} components={components} />
 </div>
-
 ```
 
 Another thing I was missing was the TailwindCSS plugin `@tailwindcss/typography` which doesn't break the nature of the MDX file.
