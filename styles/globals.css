@@ -4,7 +4,7 @@
 
 
 ::selection{
-  background:rgb(138, 205, 165);
+  background:rgb(173, 232, 197);
   color:#1c1c1c
 }
 
@@ -32,6 +32,10 @@ a {
   body {
     color: white;
     background: #1c1c1c;
+  }
+  ::selection{
+    background:rgb(138, 205, 165);
+    color:#1c1c1c
   }
 }
 

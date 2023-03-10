@@ -23,8 +23,8 @@ function projects() {
               These are  a sample of the projects that I loved working on and learned somthing new during their development.
             </p>
             <p className="pb-4">
-              Most projects that I&#39;m currently building are private (for
-              now) but almost everyhting I build is open-source as you can check
+              Projects that I&#39;m currently building are private (for
+              now) but almost everything I build is open-source as you can check
               it out on my {" "}
               <a
                 className="underline hover:decoration-wavy underline-offset-2"
