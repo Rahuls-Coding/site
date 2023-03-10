@@ -29,7 +29,7 @@ function Social() {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <a
-            className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
+            className="hover:bg-gray-200 dark:hover:bg-[#2d2d2d] rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="/Rahul_Rajkumar_CV.pdf"
             target="_blank"
             rel="noreferrer"
@@ -46,7 +46,7 @@ function Social() {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <a
-            className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
+            className="hover:bg-gray-200 dark:hover:bg-[#2d2d2d] rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://github.com/rahuls-coding"
             target="_blank"
             rel="noreferrer"
@@ -64,7 +64,7 @@ function Social() {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <a
-            className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
+            className="hover:bg-gray-200 dark:hover:bg-[#2d2d2d] rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://twitter.com/rahuls_coding"
             target="_blank"
             rel="noreferrer"
@@ -81,7 +81,7 @@ function Social() {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <a
-            className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
+            className="hover:bg-gray-200  dark:hover:bg-[#2d2d2d] rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulscoding1@gmail.com"
             target="_blank"
             rel="noreferrer"
@@ -98,7 +98,7 @@ function Social() {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <a
-            className="hover:bg-gray-200 rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
+            className="hover:bg-gray-200 dark:hover:bg-[#2d2d2d] rounded p-2 grid grid-cols-2 content-center py-1 mb-3 w-full text-sm"
             href="https://linkedin.com/in/rahulscoding"
             target="_blank"
             rel="noreferrer"

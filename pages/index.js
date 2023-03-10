@@ -39,7 +39,7 @@ export default function Home() {
             it weren&#39;t for these hobbies, I would be programming 24/7, cause it is very addictive.
             To know a little bit more about me, you can take a look at my socials. 
           </p>
-          <Footer text="Design inspired by Nextra" />
+          <Footer />
         </div>
       </div>
     </div>
