@@ -22,8 +22,8 @@ function Navbar() {
     } else if (router.asPath === "/projects") {
       console.log("is true projects");
       setStyle3(nonActive);
-    } else if (router.asPath === '/socials') {
-      setStyle4(nonActive)
+    } else if (router.asPath === "/socials") {
+      setStyle4(nonActive);
     }
     console.log("checked");
     console.log(style);

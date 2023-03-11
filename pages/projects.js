@@ -20,12 +20,13 @@ function projects() {
           <div className="text-2xl lg:mt-20 mb-10">Projects</div>
           <div className="special dark:text-slate-200 mt-10 leading-relaxed tracking-wide">
             <p className="pb-4">
-              These are  a sample of the projects that I loved working on and learned somthing new during their development.
+              These are a sample of the projects that I loved working on and
+              learned somthing new during their development.
             </p>
             <p className="pb-4">
-              Projects that I&#39;m currently building are private (for
-              now) but almost everything I build is open-source as you can check
-              it out on my {" "}
+              Projects that I&#39;m currently building are private (for now) but
+              almost everything I build is open-source as you can check it out
+              on my{" "}
               <a
                 className="underline hover:decoration-wavy underline-offset-2"
                 href="https://github.com/Rahuls-Coding?tab=repositories"
