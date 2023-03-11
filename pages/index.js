@@ -26,13 +26,10 @@ export default function Home() {
             I&#39;ve been programming as early as middle school. I first fell
             into love programming when I started learning about data science
             with Python. Ever since then I&#39;ve learned a lot more about the
-            about programming and technology. I learned more languages since then like Rust and
-            Javascript{" "}
+            about programming and technology, such as new programming languages like Rust, Javascript, and Typescript.
           </p>
           <p className="pb-4">
-            Currently, I&#39;m going back and learning more data science and
-            ML/AI with Python but still continue to get lost in the space of Web
-            Development.
+            After exploring and nearly mastering web development, I am now continuing to learn more about AI, specifcally Deep Learning and Machine Learning with Python and expertize my skills in data science.
           </p>
           <p className="pb-4">
             Other than programming, I love travelling, biking, and badminton. If
