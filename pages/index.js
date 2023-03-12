@@ -38,8 +38,12 @@ export default function Home() {
           <p className="pb-4">
             Other than programming, I love travelling, biking, and badminton. If
             it weren&#39;t for these hobbies, I would be programming 24/7, cause
-            it is very addictive. To know a little bit more about me, you can
-            take a look at my socials.
+            it is very addictive.
+          </p>
+          <p className="pb-4">
+            To know a little bit more about me, you can take a look at my
+            socials below. Or if you want to know about my skills, you can view
+            my resume.
           </p>
           <Footer />
         </div>

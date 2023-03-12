@@ -45,7 +45,9 @@ function Navbar() {
         <Link href="/journal">Journal</Link>
       </div>
       <div className={style4}>
-        <Link href="/socials">Socials</Link>
+        <Link href="/Rahul_Rajkumar_CV.pdf" target="_blank" rel="noreferrer">
+          Resume
+        </Link>
       </div>
     </div>
   );
