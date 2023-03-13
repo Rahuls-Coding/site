@@ -1,6 +1,6 @@
 import React from "react";
 
-function Logo() {
+export default function Logo() {
   return (
     <div>
       <svg
@@ -32,4 +32,4 @@ function Logo() {
   );
 }
 
-export default Logo;
+

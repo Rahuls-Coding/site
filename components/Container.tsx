@@ -1,7 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-function Container({ title, description, date, slug }) {
+interface ContainerProps {
+  title: string;
+  description: string;
+  date: string;
+  slug: string;
+}
+
+function Container({ title, description, date, slug }: ContainerProps) {
   return (
     <Link
       href={`/journal/${slug}`}

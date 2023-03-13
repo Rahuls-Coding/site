@@ -1,12 +1,22 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Container from "../components/Container";
-import Logo from "../components/Logo";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.tsx";
+import Container from "../components/Container.tsx";
+import Logo from "../components/Logo.tsx";
+import Footer from "../components/Footer.tsx";
 import { getAllFilesFrontMatter } from "../src/mdx";
 
-export default function Journal({ articles }) {
+interface Article {
+  title: string;
+  date: string;
+  [key: string]: any;
+}
+
+interface JournalProps {
+  articles: Article[];
+}
+
+export default function Journal({ articles }: JournalProps) {
   const filteredBlogPosts = articles.sort(
     (a, b) => Number(new Date(b.date)) - Number(new Date(a.date))
   );
@@ -33,8 +43,8 @@ export default function Journal({ articles }) {
               <div>Recent Articles</div>
             </div>
           </div>
-          {filteredBlogPosts.map((frontMatter) => (
-            <Container key={frontMatter.title} {...frontMatter} />
+          {filteredBlogPosts.map((frontMatter: Article) => (
+            <Container description={frontMatter.description} slug={frontMatter.slug} key={frontMatter.title} {...frontMatter} />
           ))}
           <Footer />
         </div>
@@ -43,7 +53,7 @@ export default function Journal({ articles }) {
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps = async () => {
   const articles = await getAllFilesFrontMatter("posts");
   return { props: { articles } };
-}
+};

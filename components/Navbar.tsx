@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-function Navbar() {
+export default function Navbar() {
   const router = useRouter();
   const active =
     "underline underline-offset-2 hover:underline-offset-2 hover:decoration-wavy mb-4";
@@ -14,19 +14,14 @@ function Navbar() {
 
   const checkIfOnPage = () => {
     if (router.asPath === "/") {
-      console.log("is true");
       setStyle(nonActive);
     } else if (router.asPath.includes("/journal")) {
-      console.log("is true jounal");
       setStyle2(nonActive);
     } else if (router.asPath === "/projects") {
-      console.log("is true projects");
       setStyle3(nonActive);
     } else if (router.asPath === "/socials") {
       setStyle4(nonActive);
     }
-    console.log("checked");
-    console.log(style);
   };
 
   useEffect(() => {
@@ -53,4 +48,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+

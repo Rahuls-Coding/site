@@ -1,11 +1,10 @@
 import Head from "next/head";
-
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Logo from "../components/Logo";
+import Navbar from "../components/Navbar.tsx";
+import Footer from "../components/Footer.tsx";
+import Logo from "../components/Logo.tsx";
 
-function projects() {
+export default function Projects() {
   return (
     <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
       <Head>
@@ -113,4 +112,3 @@ function projects() {
   );
 }
 
-export default projects;

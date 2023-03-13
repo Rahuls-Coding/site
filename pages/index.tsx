@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Logo from "../components/Logo";
+import Navbar from "../components/Navbar.tsx";
+import Footer from "../components/Footer.tsx";
+import Logo from "../components/Logo.tsx";
+import React from "react";
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Footer() {
+export default function Footer() {
   return (
     <div className="grid w-full">
       <div className="justify-self-center">
@@ -116,4 +116,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+

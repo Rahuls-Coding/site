@@ -2,7 +2,7 @@ import { MDXRemote } from "next-mdx-remote";
 
 import { getFiles, getFileBySlug } from "../../src/mdx";
 import Layout from "../../layouts/journal";
-import MDXComponents from "../../components/MDXComponents";
+import MDXComponents from "../../components/MDXComponents.tsx";
 
 export default function Journal({ mdxSource, frontMatter }) {
   return (

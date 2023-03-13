@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Logo from "../components/Logo";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Logo from "../components/Logo.tsx";
+import Navbar from "../components/Navbar.tsx";
+import Footer from "../components/Footer.tsx";
 
 function Layout({ children, frontMatter }) {
   return (
