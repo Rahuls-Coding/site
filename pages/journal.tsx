@@ -1,9 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../components/Navbar.tsx";
-import Container from "../components/Container.tsx";
-import Logo from "../components/Logo.tsx";
-import Footer from "../components/Footer.tsx";
+import Navbar from "../components/Navbar";
+import Container from "../components/Container";
+import Logo from "../components/Logo";
+import Footer from "../components/Footer";
 import { getAllFilesFrontMatter } from "../src/mdx";
 
 interface Article {

@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import mdxPrism from "mdx-prism";
 import path from "path";
 import { serialize } from "next-mdx-remote/serialize";
-import MDXComponents from "../components/MDXComponents.tsx";
+import MDXComponents from "../components/MDXComponents";
 
 const root = process.cwd();
 

@@ -1,8 +1,8 @@
 import Head from "next/head";
 import React from "react";
-import Navbar from "../components/Navbar.tsx";
-import Footer from "../components/Footer.tsx";
-import Logo from "../components/Logo.tsx";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Logo from "../components/Logo";
 
 export default function Projects() {
   return (
