@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
 
       <div className="grid grid-cols-2 mt-10 mb-8 text-xs w-full">
-        <div className="justify-self-start">2023 © Rahul Rajkumar</div>
+        <div className="justify-self-start">2024 © Rahul Rajkumar</div>
         <div className="justify-self-end">
           <div className="grid grid-cols-4 gap-4 pr-2">
             <a
