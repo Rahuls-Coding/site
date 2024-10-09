@@ -40,7 +40,7 @@ export default function Navbar() {
         <Link href="/journal">Journal</Link>
       </div>
       <div className={style4}>
-        <Link href="/Rahul_Rajkumar_CV.pdf" target="_blank" rel="noreferrer">
+        <Link href="google.com" target="_blank" rel="noreferrer">
           Resume
         </Link>
       </div>
