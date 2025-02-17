@@ -28,7 +28,7 @@ export default function Projects() {
               on my{" "}
               <a
                 className="underline hover:decoration-wavy underline-offset-2"
-                href="https://github.com/Rahuls-Coding?tab=repositories"
+                href="https://github.com/alt-rahul?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -55,7 +55,7 @@ export default function Projects() {
                 rel="noreferrer"
               >
                 <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2">
-                  ShapeMind
+                  SAR Despeckle
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -72,8 +72,7 @@ export default function Projects() {
                   </svg>
                 </div>
                 <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
-                  A CNN model that identifies shapes in real life objects in
-                  images.
+                  A CNN model that despeckles noisy images
                 </div>
               </a>
               <a

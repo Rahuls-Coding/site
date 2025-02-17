@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="justify-self-end">
           <div className="grid grid-cols-4 gap-4 pr-2">
             <a
-              href="https://github.com/rahuls-coding"
+              href="https://github.com/alt-rahul"
               target="_blank"
               rel="noreferrer"
             >
