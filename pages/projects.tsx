@@ -50,7 +50,7 @@ export default function Projects() {
               </div>
               <a
                 className="special"
-                href="https://github.com/rahuls-coding/shapemind"
+                href="https://github.com/alt-rahul/sar-imaging-using-cnns"
                 target="_blank"
                 rel="noreferrer"
               >
