@@ -33,7 +33,7 @@ export default function Home() {
             Over timem I became fasciatned with AI, so I&#39;m currenlty passionate about deep learning research. 
           </p>
           <p className="pb-4">
-          When I&#39;m not coding, you'll find me traveling, biking, or playing badminton. These hobbies keep me balanced, otherwise, I&#39;d probably be programming 24/7.
+          When I&#39;m not coding, you&#39;ll find me traveling, biking, or playing badminton. These hobbies keep me balanced, otherwise, I&#39;d probably be programming 24/7.
           </p>
           <p className="pb-4">
           If you&#39;d like to connect or learn more about me, feel free to check out my socials below.
