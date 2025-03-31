@@ -30,7 +30,7 @@ export default function Home() {
           </p>
           <p className="pb-4">
             I&#39;ve been programming since I was 8th grade, when I first learned how to build websites. 
-            Over time I became fascinated with AI, so I&#39;m currenlty working on deep learning research. 
+            Over time I became fascinated with AI, so I&#39;m currently working on deep learning research. 
           </p>
           <p className="pb-4">
           When I&#39;m not coding, you&#39;ll find me traveling, biking, or playing badminton. These hobbies keep me balanced, otherwise, I&#39;d probably be programming 24/7.
