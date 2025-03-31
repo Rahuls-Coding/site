@@ -72,10 +72,10 @@ export default function Projects() {
                   </svg>
                 </div>
                 <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
-                  A CNN model that despeckles noisy images
+                  Creating a deep learning CNN model that despeckles noisy SAR images
                 </div>
               </a>
-              <a
+              {/* <a
                 className="special"
                 href="https://github.com/rahuls-coding/volog"
                 target="_blank"
@@ -101,7 +101,15 @@ export default function Projects() {
                 <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
                   A tracker to track your volunteering hours.
                 </div>
-              </a>
+              </a> */}
+              <div className="special w-full">
+                <div className="dark:text-gray-200 underline underline-offset-2 w-full">
+                  Research Paper
+                </div>
+                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6 ">
+                  Currently working on a research paper related to clustering in Earth Modeling
+                </div>
+              </div>
             </div>
           </div>
           <Footer />

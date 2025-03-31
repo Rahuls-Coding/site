@@ -20,29 +20,24 @@ export default function Home() {
         <div className="special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
           <div className="text-2xl lg:mt-20 mb-10">Rahul Rajkumar</div>
           <p className="pb-4">
-            Hey, I&#39;m a freshmen at Rutgers University.
+            Hey, I&#39;m Rahul! 👋
           </p>
           <p className="pb-4">
-            I&#39;ve been programming as early as middle school. I first fell
-            into love programming when I started learning about data science
-            with Python. Ever since then I&#39;ve learned a lot more about the
-            about programming and technology, such as new programming languages
-            like Java, Javascript, and Typescript.
+          
+
+            I&#39;m currently a student at Rutgers University-NB majoring in Math + CS. 
+
           </p>
           <p className="pb-4">
-            After exploring web development, I am now
-            continuing to learn more about AI, specifcally Deep Learning with PyTorch. 
+            I&#39;ve been programming since I was 8th grade, when I first learned how to build websites. 
+            Over timem I became fasciatned with AI, so I'm currenlty passionate about deep learning research. 
           </p>
           <p className="pb-4">
-            Other than programming, I love travelling, biking, and badminton. If
-            it weren&#39;t for these hobbies, I would be programming 24/7, cause
-            it is very addictive.
+          When I'm not coding, you'll find me traveling, biking, or playing badminton. These hobbies keep me balanced, otherwise, I'd probably be programming 24/7.
           </p>
           <p className="pb-4">
-            To know a little bit more about me, you can take a look at my
-            socials below. Or if you want to know about my skills, you can view
-            my resume.
-          </p>
+          If you'd like to connect or learn more about me, feel free to check out my socials below.
+                    </p>
           <Footer />
         </div>
       </div>
