@@ -1,45 +1,22 @@
 ---
 title: "Replicating a Research Paper"
 date: "Jan 20, 2025"
-description: "Implementing a DL reserach paper. "
+description: "Implementing a deep learning paper. "
 ---
 
-So even though I have built a website using MDX & Next.js, [Cram](https://github.com/rahuls-coding/cram), a review website for AP calculus, I didn't really incoperate my styling properly which lead me to use custom react components for everything, but now I've finally figured out how to use the stack properly, MDX, TailwindCSS, and Next.js.
+After learning a lot about how Convolutional Neural Networks work, I wanted to start applying that knowledge. So when I came across this paper,  <a href="https://ieeexplore.ieee.org/document/8053792" target="_blank">SAR Image Despeckling Using a Convolutional Neural Network,
+</a> I wanted to try implementing it in PyTorch, since there were already a few implementations of that paper in TensorFlow. 
 
-When I rendered the file using next-mdx-remote, I had to put inside a div with a specific classname:
 
-```js
+So here is how I decomposed the paper and understood it. However, as a disclaimer I did modify some aspects of the architecture of the model and may have interpreted some parts of the paper differently from what may have been intented.  
 
-<div classname="prose">
-  <MDXRemote {...source} components={components} />
-</div>
+To access the codebase to this project, <a href="https://github.com/alt-rahul/sar-imaging-using-cnns" target="_blank">click here
+</a>. 
 
-```
+### Understading the Data
 
-Another thing I was missing was the TailwindCSS plugin `@tailwindcss/typography` which doesn't break the nature of the MDX file.
+The researchers in the paper stated that they took collection of SAR images from different source and added noise to each image. 
 
-### How It All Started
+...
 
-What first inspired me to use MDX was when I was watching <a href="http://leerob.io/" target="_blank">Lee Robinson's</a> video on him explaining how he built his personal website using MDX, Javascript, and TailwindCSS. During that time I also wanted to build something for me to help review all the recent units we covered in AP Calculus.
-
-So I decided to build a website that would allow me to write my notes in markdown and then render them as a blog post. However, little did I know how diffcult it woudld be.
-
-When I almost finshed building the majority of the app, I realized that I wasn't able to use the MDX the way I imagined due to me not doing what I mentioned above. I spent hours trying to fix bu eventually I decided to not to waste more time and started building custom react components for sytling.
-
-Here's an example:
-
-![An Example](https://i.ibb.co/zRLGtsD/example.gif)
-
-### How It All Ended
-
-After some time I decided that I would redesign my personal website and looked for some design inpiration. After comming across a few websites, I started to sketch in mind what I wanted to build and I was inspired by the design of the blog theme <a href="https://nextra.site/" target="_blank">Nextra</a>.
-
-As I was starting to complete the design for all my static pages, I decided that I would include a blog/journal section to make the website different from my old one, so I went back to MDX tech stack mentioned before.
-
-Not suprisingly I ran into the same problem I had before, but this time I encountered a very useful stackoverflow post that helped me fix the problem. After realizing what I had to do, I was able to get the MDX files to render properly, and finally finished building my website!
-
-### Final Thoughts
-
-Reflecting upon this, I remembered a very famous developer quote and finally realize it's importance and value.
-
-> If you can't find a solution to your bug, then you haven't looked at the right Stack Overflow post.
+*still in the works*

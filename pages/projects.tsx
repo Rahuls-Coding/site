@@ -27,7 +27,7 @@ export default function Projects() {
               almost everything I build is open-source as you can check it out
               on my{" "}
               <a
-                className="underline hover:decoration-wavy underline-offset-2"
+                className="underline hover:decoration-wavy underline-offset-2 hover:text-teal-300"
                 href="https://github.com/alt-rahul?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
@@ -54,7 +54,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2">
+                <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2 hover:text-teal-300">
                   SAR Despeckle
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

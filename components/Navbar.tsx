@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const router = useRouter();
   const active =
-    "underline underline-offset-2 hover:underline-offset-2 hover:decoration-wavy mb-4";
-  const nonActive = "font-bold mb-4";
+    "underline underline-offset-2 hover:underline-offset-2 hover:decoration-wavy mb-4 hover:text-teal-300";
+  const nonActive = "font-bold mb-4 ";
   const [style, setStyle] = useState(active);
   const [style2, setStyle2] = useState(active);
   const [style3, setStyle3] = useState(active);
@@ -40,9 +40,9 @@ export default function Navbar() {
         <Link href="/journal">Journal</Link>
       </div>
       <div className={style4}>
-        <Link href="google.com" target="_blank" rel="noreferrer">
+        {/* <Link href="google.com" target="_blank" rel="noreferrer">
           Resume
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
