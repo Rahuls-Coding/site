@@ -16,7 +16,7 @@ function Container({ title, description, date, slug }: ContainerProps) {
     <div className="relative" onMouseEnter={() => setShowTooltip(true)} onMouseLeave={() => setShowTooltip(false)}>
       {/* Using a div instead of Link but keeping all the styling */}
       <div
-        className="border-b-2 dark:border-[#2e2e2e] mb-2 border-[#e8e8e8] grid grid-cols-3 content-center py-1 text-sm dark:text-slate-100 dark:hover:text-slate-300 hover:text-slate-600 cursor-pointer"
+        className="border-b-2 ] mb-2 border-[#e8e8e8] grid grid-cols-3 content-center py-1 text-sm hover:text-slate-600 cursor-pointer"
         onClick={(e) => e.preventDefault()}
       >
         <div className="justify-self-start col-span-2">
@@ -24,7 +24,7 @@ function Container({ title, description, date, slug }: ContainerProps) {
 
           <div className="inline pl-1 text-xs "> - {description}</div>
         </div>
-        <div className="justify-self-end text-gray-500 dark:text-gray-400">{date}</div>
+        <div className="justify-self-end text-gray-500 ">{date}</div>
       </div>
 
       {/* Tooltip that appears on hover */}

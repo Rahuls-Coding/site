@@ -31,7 +31,7 @@ export default function Journal({ articles }: JournalProps) {
           <Logo />
           <Navbar />
         </div>
-        <div className="special dark:text-slate-200 mt-6 lg:mt-10 leading-relaxed tracking-wide mb-14 row-span-7 lg:col-span-7">
+        <div className="special mt-6 lg:mt-10 leading-relaxed tracking-wide mb-14 row-span-7 lg:col-span-7">
           <h1 className="text-2xl lg:mt-20 mb-10">Journal</h1>
           <p className="pb-4">
             This is my journal where I write about my experiences, thoughts, and
@@ -39,7 +39,7 @@ export default function Journal({ articles }: JournalProps) {
             the world and how I could possbily apply it to myself.
           </p>
           <div className="my-3">
-            <div className="text-sm dark:text-gray-400 ">
+            <div className="text-sm  ">
               <div>Recent Articles</div>
             </div>
           </div>

@@ -17,7 +17,7 @@ export default function Home() {
           <Logo />
           <Navbar />
         </div>
-        <div className="special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
+        <div className="special  lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7">
           <div className="text-2xl lg:mt-20 mb-10">Rahul Rajkumar</div>
           <p className="pb-4">
             Hey, I&#39;m Rahul! 👋

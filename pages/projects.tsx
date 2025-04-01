@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div className="row-span-7 lg:col-span-7 lg:mt-10">
           <div className="text-2xl lg:mt-20 mb-10">Projects</div>
-          <div className="special dark:text-slate-200 mt-10 leading-relaxed tracking-wide">
+          <div className="special mt-10 leading-relaxed tracking-wide">
             <p className="pb-4">
               These are a sample of the projects that I loved working on and
               learned somthing new during their development.
@@ -27,7 +27,7 @@ export default function Projects() {
               almost everything I build is open-source as you can check it out
               on my{" "}
               <a
-                className="underline hover:decoration-wavy underline-offset-2 hover:text-teal-300"
+                className="underline hover:decoration-wavy underline-offset-2 hover:text-teal-600"
                 href="https://github.com/alt-rahul?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
@@ -40,10 +40,10 @@ export default function Projects() {
           <div className="my-3 mb-10">
             <div className="grid lg:gap-24 gap-8 mt-3 w-full lg:grid-cols-3">
               <div className="special w-full">
-                <div className="dark:text-gray-200 underline underline-offset-2 w-full">
+                <div className=" underline underline-offset-2 w-full">
                   GeneAI
                 </div>
-                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6 ">
+                <div className="pt-2 lg:w-40 text-sm leading-6 ">
                   A ML model that&#39;s able to generate smaller models with
                   little data.
                 </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="dark:text-gray-200 underline hover:decoration-wavy underline-offset-2 hover:text-teal-300">
+                <div className=" underline hover:decoration-wavy underline-offset-2 hover:text-teal-600">
                   SAR Despeckle
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function Projects() {
                     />
                   </svg>
                 </div>
-                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
+                <div className=" pt-2 lg:w-40 text-sm leading-6">
                   Creating a deep learning CNN model that despeckles noisy SAR images
                 </div>
               </a>
@@ -98,15 +98,15 @@ export default function Projects() {
                     />
                   </svg>
                 </div>
-                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6">
+                <div className="dark:text-gray-600 pt-2 lg:w-40 text-sm leading-6">
                   A tracker to track your volunteering hours.
                 </div>
               </a> */}
               <div className="special w-full">
-                <div className="dark:text-gray-200 underline underline-offset-2 w-full">
+                <div className=" underline underline-offset-2 w-full">
                   Research Paper
                 </div>
-                <div className="dark:text-gray-300 pt-2 lg:w-40 text-sm leading-6 ">
+                <div className=" pt-2 lg:w-40 text-sm leading-6 ">
                   Currently working on a research paper related to clustering in Earth Modeling
                 </div>
               </div>

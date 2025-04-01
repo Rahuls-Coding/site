@@ -15,7 +15,7 @@ export default function Footer() {
               href="https://github.com/alt-rahul"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
+              className="hover:text-teal-600 transition-colors duration-200"
             >
               <div>
                 <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@ export default function Footer() {
               href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=rahulrajkumar.personal@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
+              className="hover:text-teal-600 transition-colors duration-200"
             >
               <div>
                 <svg
@@ -59,7 +59,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/rahulrajkumar01/"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
+              className="hover:text-teal-600 transition-colors duration-200"
             >
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 16 16">
@@ -74,7 +74,7 @@ export default function Footer() {
               href="https://twitter.com/rahulrajkumar01"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-teal-300 transition-colors duration-200"
+              className="hover:text-teal-600 transition-colors duration-200"
             >
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 16 16">

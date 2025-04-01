@@ -24,7 +24,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -36,10 +36,10 @@ a {
     background: rgb(138, 205, 165);
     color: #1c1c1c;
   }
-}
+} */
 
 .special {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .logobody {
