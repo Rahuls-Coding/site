@@ -9,6 +9,9 @@ import { getAllFilesFrontMatter } from "../src/mdx";
 interface Article {
   title: string;
   date: string;
+  description: string;
+  slug: string;
+  avil?: boolean;
   [key: string]: any;
 }
 
@@ -22,7 +25,7 @@ export default function Journal({ articles }: JournalProps) {
   );
 
   return (
-    <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
+    <div className="flex text-black flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
       <Head>
         <title>Journal | Rahul Rajkumar</title>
       </Head>
@@ -36,15 +39,22 @@ export default function Journal({ articles }: JournalProps) {
           <p className="pb-4">
             This is my journal where I write about my experiences, thoughts, and
             stories. I love to keep note of what&#39;s currently happening in
-            the world and how I could possbily apply it to myself.
+            the world and how I could possibly apply it to myself.
           </p>
           <div className="my-3">
-            <div className="text-sm  ">
+            <div className="text-sm">
               <div>Recent Articles</div>
             </div>
           </div>
           {filteredBlogPosts.map((frontMatter: Article) => (
-            <Container description={frontMatter.description} slug={frontMatter.slug} key={frontMatter.title} {...frontMatter} />
+            <Container
+              key={frontMatter.title}
+              title={frontMatter.title}
+              description={frontMatter.description}
+              slug={frontMatter.slug}
+              date={frontMatter.date}
+              avil={frontMatter.avil}
+            />
           ))}
           <Footer />
         </div>

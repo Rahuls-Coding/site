@@ -16,10 +16,10 @@ function Layout({ children, frontMatter }) {
           <Logo />
           <Navbar />
         </div>
-        <div className="special dark:text-slate-200 lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7 mr-4">
+        <div className="special text-black lg:mt-10 leading-relaxed tracking-wide row-span-7 lg:col-span-7 mr-4">
           <div className="lg:mt-20 text-2xl">{frontMatter.title}</div>
-          <div className=" grid grid-cols-2 content-center py-3 w-full text-sm dark:text-slate-200">
-            <div className="justify-self-start bg-gray-100  dark:bg-[#2c2c2c] rounded py-1 px-2 mt-2">
+          <div className=" grid grid-cols-2 content-center py-3 w-full text-sm ">
+            <div className="justify-self-start bg-gray-100 rounded py-1 px-2 mt-2">
               {frontMatter.date}
             </div>
             <div className="justify-self-end mt-2 ">
@@ -48,7 +48,7 @@ function Layout({ children, frontMatter }) {
               </Link>
             </div>
           </div>
-          <div className="special text-white mt-10 leading-relaxed tracking-wide mb-3">
+          <div className=" text-black mt-10 leading-relaxed tracking-wide mb-3">
             {children}
           </div>
           <Footer />

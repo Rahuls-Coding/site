@@ -8,7 +8,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
+    <div className="flex flex-col text-black justify-center items-start max-w-3xl sm:mx-auto pb-16 mx-6">
       <Head>
         <title>Rahul Rajkumar</title>
       </Head>
